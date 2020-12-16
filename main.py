@@ -115,10 +115,10 @@ def sst():
 ## login too chrome with my account 
 '''working'''
 def login():
-    driver.find_element_by_name('identifier').send_keys("rajwardhanbhumarkar10a@stmarysbalaghat.in")
+    driver.find_element_by_name('identifier').send_keys("")
     driver.find_element_by_xpath('//*[@id="identifierNext"]/div/button/div[2]').click()
     driver.implicitly_wait(2)
-    driver.find_element_by_name('password').send_keys("yashwardhanraj")
+    driver.find_element_by_name('password').send_keys("")
     driver.find_element_by_xpath('//*[@id="passwordNext"]/div/button/div[2]').click()
 
 '''Declaring day'''
